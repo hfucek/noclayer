@@ -1,7 +1,9 @@
-#noclayer
-
+#Noclayer
+!(public/logo.png)  
 Data center rack management 
 
+[<img src="https://s-a.github.io/license/img/mit.svg" />](/LICENSE.md#mit "Massachusetts Institute of Technology (MIT)")
+[![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
 
 ##Installing Noclayer
 -----------------------------------------------------------------------------
@@ -45,3 +47,7 @@ running Noclayer. However, the specific system requirements are:
 	MySQL Version 5.x or later
 	GD2 Image Library	
 	
+License
+-----------------------------------------------------------------------------
+Copyright (c) 2015 Hrvoje Fucek hrvoje.fucek@gmail.com
+This software is licensed under MIT.
