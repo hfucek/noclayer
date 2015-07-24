@@ -1,0 +1,253 @@
+
+{
+    "windows":[
+        {
+            "win_device":[
+                {
+                    "container_id":"#win_login",
+                    "type":"input",
+                    "path":"#win_login input[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_login",
+                    "type":"input",
+                    "path":"#win_login input[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_login",
+                    "type":"button",
+                    "path":"#win_login button[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#rack_cage ru[0]",
+                    "type":"input",
+                    "path":"#win_device_layer2 tab[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"input",
+                    "path":"#win_device_layer2 input[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"input",
+                    "path":"#win_device_layer2 input[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"input",
+                    "path":"#win_device_layer2 input[2]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"input",
+                    "path":"#win_device_layer2 input[3]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"select",
+                    "path":"#win_device_layer2 select[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"select",
+                    "path":"#win_device_layer2 select[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"checkbox",
+                    "path":"#win_device_layer2 input[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"button",
+                    "path":"#win_device tab[1] button[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"button",
+                    "path":"#win_device tab[1] button[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_device_layer2",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"button",
+                    "path":"#win_device tab[1] button[3]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_raid",
+                    "predefined":"#win_device tab[1] button[0]",
+                    "type":"tab",
+                    "path":"#win_raid tab[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_raid",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"button",
+                    "path":"#win_raid #win_raid_layer1 select[0]",
+                    "action":"saveRec",
+                    "reaction":""
+                },
+
+                {
+                    "container_id":"#win_raid",
+                    "predefined":"#win_device_layer2 tab[1]",
+                    "type":"button",
+                    "path":"#win_raid #win_raid_layer1 select[1]",
+                    "action":"saveRec",
+                    "reaction":""
+                }
+            ]
+        }
+    ],
+    "others":[
+
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[0]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[1]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[2]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[3]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[4]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#building_nav",
+            "type":"link",
+            "path":"#building_nav links[5]",
+            "action":"saveRec",
+            "reaction":""
+        },
+
+        {
+            "container_id":"#headmenu_room",
+            "type":"link",
+            "path":"#headmenu_room links[0]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#headmenu_cable",
+            "type":"link",
+            "path":"#headmenu_cable links[1]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#headmenu_wiki",
+            "type":"link",
+            "path":"#headmenu_wiki links[2]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#headmenu_search",
+            "type":"link",
+            "path":"#headmenu_search links[3]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#headmenu_monitor",
+            "type":"link",
+            "path":"#headmenu_monitor links[4]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#headmenu_update",
+            "type":"link",
+            "path":"#headmenu_update links[5]",
+            "action":"saveRec",
+            "reaction":""
+        },
+        {
+            "container_id":"#rack_cage",
+            "type":"div",
+            "path":"#rack_cage ru[0]",
+            "action":"saveRec",
+            "reaction":""
+        }
+    ]
+}

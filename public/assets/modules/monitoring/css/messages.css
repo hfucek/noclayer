@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+#messages{
+z-index:200;	
+position:absolute;	
+width:220px;
+
+right:0px;
+top:35px;
+}
+
+.msg{
+margin-top:-1px;	
+height:55px;
+width:360px;
+border:1px solid #ccc;
+background:#fff;
+cursor:pointer;
+}
+
+.statOK{
+background:lime;
+}
+.msgOK{
+background:#A4E777;
+}
+
+.msgWARNING,.statWARNING{
+background:#FFFF00;
+}
+.msgUNKNOWN,.statUNKNOWN{
+background:#FF711C;
+}
+.msgCRITICAL{
+background:#F88888;
+}
+.statCRITICAL{
+background:red;
+}
+
+
+.msg .title{
+margin-top:5px;
+margin-left:10px;
+line-height:25px;
+font-size:14px;
+color:black;
+}
+
+.msg .value{
+margin-left:10px;
+line-height:20px;
+font-size:12px;
+color:black;
+}
+
+.stat_ER{
+ color:#D20E2F;
+ font-weight:bold;
+ }
+
+.stat_OK{
+ color:#6BCC47;
+ font-weight:bold;
+ }
+ 

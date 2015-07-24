@@ -1,0 +1,11 @@
+<?php
+
+foreach (glob(APPPATH . 'modules/basic/views/windows/*.php') as $win_name) {
+
+
+    echo'
+<!--=================================================================================-->
+';
+    include $win_name;
+}
+?>

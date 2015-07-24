@@ -1,0 +1,110 @@
+
+.hdd_detail, .mem_detail {
+	
+        float:left;
+	display:block;
+	width:90px;
+	height:90px;
+}
+
+#win_raid .hdd_detail{
+	background: url(/assets/modules/basic/img/hdd.png) no-repeat 10px 25px;
+}
+
+#win_ram .mem_detail{
+	background: url(/assets/modules/basic/img/mem.png) no-repeat 10px 25px;
+}
+
+#win_raid .newdiscadd, #win_ram .newmoduleadd {
+	float:left;
+        margin-left:10px !important;
+	margin-bottom:20px;
+	clear:both;
+}
+
+#win_raid .newdiscadd  legend.fieldmenu, #win_ram .newmoduleadd  legend.fieldmenu {
+        margin-left:10px;
+	float:right;
+        cursor:pointer;
+}
+
+#win_raid .add_element, #win_ram .add_element{
+	margin-top:-5px;
+	float:right;
+}
+
+#win_raid .newdiscadd .anew, #win_ram .newmoduleadd .anew{
+	padding-top:10px;
+}
+
+#win_raid .cell, #win_ram .cell {
+	margin:8px 20px 0px 0px;
+	float:left;
+}
+
+#win_raid .cell fieldset, #win_ram fieldset {
+    border:none;
+}
+
+#win_raid .cell input, #win_ram .cell input {
+	width:140px;
+}
+
+#win_raid .disk_id, #win_ram .disk_id {
+	float:left;
+	text-align:center;
+}
+
+#win_raid .active, #win_ram .active {
+    -webkit-box-shadow: 0 0 3px 4px #41DD3D;
+    box-shadow: 0 0 3px 4px #41DD3D;
+}
+
+#win_raid .row, #win_ram .row  {
+        position:relative;
+	height:115px;
+	margin:10px;
+	clear:both;
+	background:#f6f6f6;	
+        border: 1px solid #fff;
+         box-shadow: 0 0 3px 1px #ccc;
+}
+
+#win_raid .hint, #win_ram .hint  {
+	padding-left: 15px;
+	background: url(/assets/modules/basic/img/addhdd_border.png) no-repeat -8px 0px;
+	position: absolute;
+	top: 55px;
+	left: 200px;
+}
+	
+#win_raid .hint input, #win_ram .hint input {
+	width:230px;
+      
+}
+
+#win_raid .row:hover .remove, #win_ram .row:hover .remove {
+        display:block;
+}
+
+#win_raid .row .remove, #win_ram .row .remove {
+        display:none;
+        background:url(/assets/img/icons.png);
+        cursor:pointer;
+        position:absolute;
+        top:2px;
+        right:2px;
+        background-color:#f8f8f8;
+        
+        width:20px;
+        height:20px;
+        background-position:-1px -151px;
+}
+
+#win_raid .row .remove:hover, #win_ram .row .remove:hover  {
+        background-position:-21px -151px;
+}
+.cell input{
+      font-size:16px;
+      height:25px;
+}

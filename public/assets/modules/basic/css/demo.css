@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+
+
+#win_demo .tutorial{
+margin-top:10px;	
+	
+}
+
+#win_demo .tutorial .head{
+cursor:pointer;
+height:35px;
+background:#f8f8f8;
+font-size:12px;
+line-height:35px;
+padding-left:10px;
+color:#1e90ff;
+border:1px solid #ccc;
+}
+#win_demo .tutorial .head:hover{
+	
+	color:black;
+}
+
+#win_demo .win_layer{
+	padding:20px;
+	position:relative;
+}
+
+
+#win_demo .info{
+	font-size:14px;
+	color:#888;
+	margin-bottom:10px;
+}
+
+#win_demo .title0{
+	font-size:18px;
+}
+
+#win_demo .title1{
+	font-size:14px;
+	line-height:30px;
+	color:#555;
+}
+
+#win_demo .title2{
+font-size:12px;
+color:#1A69AA;
+text-decoration:none;
+}
+#win_demo .title2:hover{
+	color:black;}
+
+
+#win_demo .info1, #win_demo .info2{
+font-size:12px;
+	line-height:20px;
+	color:#888;
+}
+
+#win_demo .gohome{
+	position:absolute;
+	height:20px;
+	right:15px;
+	
+	margin-top:-15px;
+	margin-left:-15px;
+	
+}
+
+#win_demo .data2{
+float:left;
+
+	
+}
+#win_demo .link{
+font-size:10px;
+color:#1A69AA;
+text-decoration:none;
+line-height:25px;
+}
+#win_demo .link:hover{
+	color:black;
+	
+}
+
+#win_demo .managment{
+	margin-top:5px;
+	width:290px;
+	margin-right:0px;
+	float:left;
+	
+	
+}
+#win_demo .perform{
+	display:none;
+	
+}
+
+#win_demo .data{
+	width:250px;
+	float:left;
+	margin-left:15px;
+}
+
+#win_demo .card{
+	float:left;
+	clear:both;
+	padding:5px 0px 2px 0px;
+}
+
+#win_demo .stencil{
+	
+	
+}
+#win_demo .inline{
+	
+	
+}
+
+#win_demo .settings{
+	background-position:-25px -25px;
+float:left;
+}
+
+#win_demo .subcard{
+	margin:5px 0px 5px 0px;
+	float:left;
+	clear:both;
+	
+}
+
+#win_demo .ico_ar{
+	background-position:-75px 0px!important;
+	}
+
+#win_demo .open .ico_ar{
+	background-position:-75px -25px!important;
+}
+
+#win_demo .ico_set{
+	display:none;
+	position:absolute;
+	margin-left:-20px;
+	background-position:-75px -50px!important;
+}
+
+.open .sdata{
+	display:block!important;
+}
+
+#win_demo .stitle{
+	float:left;
+	width:500px;
+	font-size:14px;
+	line-height:25px;
+
+}
+
+#win_demo .prew{
+	width:550px;
+	height:35px;
+	border:1px solid #ccc;
+}
+
+#win_demo .sdata .make{
+	background-position:-50px -75px!important;
+}
+
+#win_demo .sdata ul{
+	
+	list-style-position:inside;
+}
+
+#win_demo .power_add{
+	cursor:pointer;
+	background:url(../img/icons.png);
+	
+	width:15px;
+	height:15px;
+	background-position:-130px -154px;
+}
+
+#win_demo .sdata .make:hover{
+	background-position:-75px -75px!important;
+}
+#win_demo .screw{
+	background-position:0px -325px!important;
+}
+
+#win_demo .sdata .inline{
+	float:left;
+}
+
+#win_demo .sdata{
+	display:none;
+	padding-left:25px;
+	float:left;
+	clear:both;
+	font-size:12px;
+	color:#888;
+	width:540px;
+	position:relative;
+	line-height:20px;
+}
+
+#win_demo .ico0{
+background-position:0px 0px!important;
+	}
+#win_demo .ico1{
+background-position:0px -25px!important;		
+}
+#win_demo .ico2{
+background-position:0px -50px!important;
+}
+#win_demo .ico3{
+background-position:0px -75px!important;
+}
+#win_demo .ico4{
+background-position:-25px 0px!important;
+}
+
+#win_demo .ico5{
+background-position:-25px -25px!important;
+}
+
+#win_demo .ico6{
+background-position:-25px -50px!important;
+}
+
+#win_demo .ico7{
+background-position:-25px -75px!important;
+}
+#win_demo .ico8{
+background-position:-50px 0px!important;
+}
+#win_demo .stencil{
+width:25px;
+height:25px;
+background:url(../img/tutorial-icons.png);
+float:left;
+
+}
+#win_demo_layer0 .stencil{
+
+margin-top:7px;
+}
+
+
+
+

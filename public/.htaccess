@@ -1,0 +1,37 @@
+SetEnv FUEL_ENV development
+
+<IfModule mod_rewrite.c>
+
+    # Make sure directory listing is disabled
+	#Options +FollowSymLinks -Indexes
+	RewriteEngine on
+
+	# NOTICE: If you get a 404 play with combinations of the following commented out lines
+	#AllowOverride All
+	#RewriteBase /wherever/fuel/is
+
+
+	# Send request via index.php 
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	# deal with php5-cgi first
+	<IfModule mod_fcgid.c>
+		RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+	</IfModule>
+
+	<IfModule !mod_fcgid.c>
+
+		# for normal Apache installations
+		<IfModule mod_php5.c>
+			RewriteRule ^(.*)$ index.php/$1 [L]
+		</IfModule>
+
+		# for Apache FGCI installations
+		<IfModule !mod_php5.c>
+			RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+		</IfModule>
+
+	</IfModule>
+
+</IfModule>

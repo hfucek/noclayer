@@ -1,0 +1,92 @@
+{
+    "version": "premium",
+    "modules": [
+        "conn",
+        "basic",
+        "cables",
+        "monitoring",
+        "graphing",
+        "ipm",
+        "debugger"
+    ],
+    "init":[
+"CONN"
+
+    ],
+    "next": [
+        "HEADER",
+        "SEARCH",
+        "NETWORK",
+        "HARDWARE",
+        "WIKI",
+        "VPS",
+        "DEMO",
+        "IPM",
+        "DEVICE",
+        "DEBUGGING"
+
+    ],
+    "header": {
+        "settings": [
+            {
+                "name": "Debugging",
+                "win": "debugging"
+            },
+            {
+                "name": "Monitoring",
+                "win": "monitor_settings"
+            },
+            {
+                "name": "Graphing",
+                "win": "graphing_settings"
+            },
+            {
+                "name": "Tutorial",
+                "win": "demo"
+            },
+            {
+                "name": "IP Address Management",
+                "win": "ipm"
+            },
+            {
+                "name": "Device Template",
+                "win": "device_template"
+            },
+            {
+                "name": "Building",
+                "win": "building"
+            }
+        ],
+        "navigation": [
+            {
+                "cls": "menu",
+                "id": "building_nav",
+                "data": [
+                ]
+            },
+            {
+                "cls": "menu menu_navigation",
+                "data": [
+                    "room",
+                    "cable",
+                    "wiki",
+                    "search",
+                    "monitor",
+                    "update"
+                ]
+            },
+            {
+                "cls": "menu",
+                "id": "cable_head",
+                "data": [
+                ]
+            },
+            {
+                "cls": "menu",
+                "id": "monitor_head",
+                "data": [
+                ]
+            }
+        ]
+    }
+}

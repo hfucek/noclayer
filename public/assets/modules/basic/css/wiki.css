@@ -1,0 +1,562 @@
+#wikidata{
+	color:#555;
+	font-size:12px;
+	padding:20px;
+	line-height:18px;
+}
+
+#wikidata ul,#wikidata ol{
+	margin:10px 0px 5px 0px;
+	padding:5px;
+	
+}
+
+#wikidata li{
+list-style: url(../img/minus.gif) inside none;
+line-height:18px;	
+}
+
+#wikicatind .index{
+	margin-top:10px;
+}
+
+#wikicatind .index li{
+font-size:12px;
+list-style: inside none!important;
+margin-left:10px;
+padding-left:0px;
+line-height:18px;
+
+}
+#wikicatind .index a{
+	color: #555;
+}
+#wikicatind .index a:hover{
+	color:#178FCE;
+	text-decoration:underline;
+}
+#wikidata p{
+	line-height:20px;
+}
+#wikidata h1,h2,h3,h4{
+	margin:5px 0px 5px 0px;	
+}
+
+#wikidata h1{
+	font-size:18px;
+	
+}
+#wikidata h2{
+	font-size:16px;
+	
+}
+#wikidata h3{
+	font-size:14px;
+	
+}
+#wikidata h4{
+	font-size:12px;
+}
+
+#wikidata h5{
+	font-size:10px;
+}
+
+#wikidata a{
+	color:#178FCE;
+}
+#wikidata a:hover{
+	color:#555;
+	text-decoration:underline;
+}
+
+
+
+#wikidata code{
+	color:green;
+	margin:5px;
+}
+
+#wikidata tt{
+color:orange;
+}
+
+#wikidata pre{
+	border:1px dashed #ccc;
+	padding:5px;
+	font:10px monospace;
+}
+
+.wikisearchbox{
+position:absolute;
+width:750px;
+height:25px;
+top:30px;
+left:5px;
+}
+.wikisearch{
+	border:1px solid #ccc;
+	height:25px;
+	width:510px;
+	position:absolute;
+	left:222px;
+	top:0px;
+	padding-left:24px;
+	
+	
+}
+
+.wikicategory{
+	height:25px;
+	width:185px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding-left:0px;
+	
+	
+}
+
+#wikisearchdata{
+
+	
+}
+
+.wikilup{
+	z-index:10;
+	position:absolute;
+background: url("/assets/img/icons.png") repeat scroll -50px -25px transparent;	
+	width:25px;
+	height:25px;
+	left:222px;
+	top:1px;
+	
+}
+
+.wikicategory select{
+	height:27px;
+	width:185px;
+	border:1px solid #ccc;
+	font-size:12px;
+	padding:3px;
+	
+}
+
+.ewikicategory select{
+	height:27px;
+	width:270px;
+	border:1px solid #ccc;
+	font-size:12px;
+	padding:3px;
+}
+
+.ewikicategory{
+	position:absolute;top:29px;
+	right:10px;
+	
+}
+
+.size10{
+	font-size:10px;
+	color:#888;
+}
+
+#wiki_action{
+background-position:-275px 0px!important;		
+position:relative;
+cursor:pointer;
+}
+#wiki_action:hover{
+background-position:-275px -25px!important;		
+}
+
+
+.category_action{
+	background-position:-250px 0px;
+	position:relative;
+	cursor:pointer;	
+}
+
+.category_action:hover{
+background-position:-250px -25px!important;		
+}
+
+.category_action:hover .submenu{
+	display:block;
+}
+#wiki_action .submenu{
+	left:-110px;
+	text-align:right;
+}
+
+#wiki_action .submenu li{
+	padding-right:10px;
+}
+
+.category_action .submenu{
+	
+	z-index:3;
+	display:none;
+	left:0px;
+	top:25px;
+	position:absolute;
+	width:135px;
+	border:1px solid #ccc;
+	background:white;
+	list-style:none;
+}
+
+.category_action .submenu li{
+	font-size:14px;
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	
+}
+
+.category_action .submenu li:hover{
+	background:#f8f8f8;
+	color:#1e90ff;
+	
+}
+
+
+
+
+
+.wikisearch:focus{
+	
+	background:#e2e2e2;
+}
+
+.wikiedit{
+	background:url(../img/bg.png);
+	height:35px;
+	
+}
+
+.wikititle{
+	margin-top:0px;
+	font-size:14px;
+	margin-left:10px;
+	line-height:35px;
+	width:560px;
+	height:35px;
+	overflow:hidden;
+	color:#555;
+}
+
+
+.editicons{
+	height:25px;
+	position:absolute;
+	width:460px;
+	left:5px;
+	margin-top:5px;
+
+
+}
+
+.editicons .separator{
+float:left;
+width:15px;
+height:10px;
+
+	}
+.editicons .icons{
+	cursor:pointer;
+	margin-left:2px;
+	float:left;
+	border:1px solid #ccc;
+background-color:white;
+}
+
+
+.wiki .markItUpButton1 a {
+	background-position:0px -350px!important;
+	
+}
+.wiki .markItUpButton2 a {
+	background-position:-25px -350px!important;
+}
+.wiki .markItUpButton3 a {
+	background-position:-50px -350px!important;
+	
+}
+.wiki .markItUpButton4 a {
+	background-position:-75px -350px!important;
+	
+}
+.wiki .markItUpButton5 a {
+	background-position:-100px -350px!important;
+	
+}
+.wiki .markItUpButton6 a {
+	background-position:-125px -350px!important;
+	
+}
+.wiki .markItUpButton7 a {
+	background-position:-150px -350px!important;
+	
+}
+.wiki .markItUpButton8 a {
+	background-position:-175px -350px!important;
+	
+}
+.wiki .markItUpButton9 a {
+	background-position:-200px -350px!important;
+	
+}
+.wiki .markItUpButton10 a {
+	background-position:-225px -350px!important;
+	
+}
+.wiki .markItUpButton11 a {
+	background-position:-250px -350px!important;
+	
+}
+.wiki .markItUpButton12 a {
+	background-position:-275px -350px!important;
+	
+}
+.wiki .markItUpButton13 a {
+	background-position:-300px -350px!important;
+	
+}
+.wiki .markItUpButton14 a {
+	background-position:-325px -350px!important;
+	
+}
+
+.wiki .markItUpButton15 a {
+	background-position:-350px -350px!important;
+	
+}
+
+.wiki .markItUpButton16 a {
+	background-position:-375px -350px!important;
+	
+}
+
+
+.wiki .markItUpButton1 a:hover {
+	background-position:0px -375px!important;
+	
+}
+.wiki .markItUpButton2 a:hover  {
+	background-position:-25px -375px!important;
+}
+.wiki .markItUpButton3 a:hover{
+	background-position:-50px -375px!important;
+	
+}
+.wiki .markItUpButton4 a:hover{
+	background-position:-75px -375px!important;
+	
+}
+.wiki .markItUpButton5 a:hover{
+	background-position:-100px -375px!important;
+	
+}
+.wiki .markItUpButton6 a:hover{
+	background-position:-125px -375px!important;
+	
+}
+.wiki .markItUpButton7 a:hover{
+	background-position:-150px -375px!important;
+	
+}
+.wiki .markItUpButton8 a:hover{
+	background-position:-175px -375px!important;
+	
+}
+.wiki .markItUpButton9 a:hover{
+	background-position:-200px -375px!important;
+	
+}
+.wiki .markItUpButton10 a:hover{
+	background-position:-225px -375px!important;
+	
+}
+.wiki .markItUpButton11 a:hover{
+	background-position:-250px -375px!important;
+	
+}
+.wiki .markItUpButton12 a:hover{
+	background-position:-275px -375px!important;
+	
+}
+.wiki .markItUpButton13 a:hover{
+	background-position:-300px -375px!important;
+	
+}
+.wiki .markItUpButton14 a:hover{
+	background-position:-325px -375px!important;
+	
+}
+
+.wiki .markItUpButton15 a:hover{
+	background-position:-350px -375px!important;
+	
+}
+.wiki .markItUpButton16 a:hover{
+	background-position:-375px -375px!important;
+	
+}
+
+.wiki .preview a {
+	background-image:url(../img/wiki/preview.png);
+}
+
+
+.markItUp * {
+	margin:0px; padding:0px;
+	outline:none;
+}
+.markItUp a:link,
+.markItUp a:visited {
+	color:#000;
+	text-decoration:none;
+}
+.markItUp  {
+	width:800px;	
+}
+.markItUpContainer  {
+		
+	background:url(../img/bg.png) white;
+	padding:5px 5px 2px 5px;
+	font:11px Coda,Verdana, Arial, Helvetica, sans-serif;
+}
+.markItUpEditor {
+	font:14px Coda,'Courier New', Courier, monospace;
+	padding:10px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	height:390px;
+	width:770px;
+	clear:both;
+	line-height:18px;
+	overflow:auto;
+	resize: none; 
+}
+#wikicatind .nodata{
+	font-size:12px;
+	padding:10px;
+	color:#888;
+	
+}
+.markItUpPreviewFrame	{
+	overflow:auto;
+	background-color:#FFFFFF;
+	border:1px solid #3C769D;
+	width:99.9%;
+	height:300px;
+	margin:5px 0;
+}
+.markItUpFooter {
+	width:100%;
+	cursor:n-resize;
+}
+.markItUpResizeHandle {
+	overflow:hidden;
+	width:22px; height:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../img/wiki/handle.png);
+	cursor:n-resize;
+}
+/***************************************************************************************/
+/* first row of buttons */
+.markItUpHeader ul li	{
+	list-style:none;
+	float:left;
+	position:relative;
+}
+.markItUpHeader ul li ul{
+	display:none;
+}
+.markItUpHeader ul li:hover > ul{
+	display:block;
+}
+.markItUpHeader ul .markItUpDropMenu {
+	background:transparent url(../img/wiki/menu.png) no-repeat 115% 50%;
+	margin-right:5px;
+}
+.markItUpHeader ul .markItUpDropMenu li {
+	margin-right:0px;
+}
+.markItUpHeader ul .markItUpSeparator {
+	margin:0 10px;
+	width:1px;
+	height:16px;
+	overflow:hidden;
+	background-color:#CCC;
+	visibility:hidden;
+}
+.markItUpHeader ul ul .markItUpSeparator {
+	width:auto; height:1px;
+	margin:0px;
+}
+/* next rows of buttons */
+.markItUpHeader ul ul {
+	display:none;
+	position:absolute;
+	top:18px; left:0px;	
+	background:#F5F5F5;
+	border:1px solid #3C769D;
+	height:inherit;
+}
+.markItUpHeader ul ul li {
+	float:none;
+	border-bottom:1px solid #3C769D;
+}
+.markItUpHeader ul ul .markItUpDropMenu {
+	background:#F5F5F5 url(../img/wiki/submenu.png) no-repeat 100% 50%;
+}
+/* next rows of buttons */
+.markItUpHeader ul ul ul {
+	position:absolute;
+	top:-1px; left:150px;
+}
+.markItUpHeader ul ul ul li {
+	float:none;
+}
+.markItUpHeader ul a {
+	background:url(/assets/img/icons.png) white;
+	display:block;
+	width:25px; height:25px;
+	text-indent:-10000px;
+	background-repeat:no-repeat;
+	margin:0px;
+	margin-left:2px;
+	border:1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 1px 0 #CCCCCC;
+}
+.markItUpHeader ul ul a {
+	display:block;
+	padding-left:0px;
+	text-indent:0;
+	width:120px; 
+	padding:5px 5px 5px 25px;
+	background-position:2px 50%;
+}
+.markItUpHeader ul ul a:hover  {
+	color:#FFF;
+	background-color:#3C769D;
+}
+/***************************************************************************************/
+.html .markItUpEditor {
+	background-image:url(../img/wiki/bg-editor-html.png);
+}
+.markdown .markItUpEditor {
+	background-image:url(../img/wiki/bg-editor-markdown.png);
+}
+.textile .markItUpEditor {
+	background-image:url(../img/wiki/bg-editor-textile.png);
+}
+.bbcode .markItUpEditor {
+	background-image:url(../img/wiki/bg-editor-bbcode.png);
+}
+.wiki .markItUpEditor,

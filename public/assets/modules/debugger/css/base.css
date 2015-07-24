@@ -1,0 +1,618 @@
+.dual fieldset{
+
+    float:left;
+}
+.dataTable .center{
+    text-align: center;
+}
+
+.dataTable .width30{
+    width:30%;
+}
+
+.dataTable .width20{
+    width:20%;
+}
+.dataTable .width5{
+    width:5%;
+}
+.dataTable .width10{
+    width:10%;
+}
+.dataTable td{
+    overflow:hidden;
+}
+
+.dataTable .row_selected{
+
+
+
+}
+.pop_warn{
+    margin:20px;
+    font-size: 14px;
+    color:#1e90ff;
+}
+
+#debug_checks_list fieldset{
+    background:white;
+}
+
+.dataTable .row_selected td{
+    background:#D5FEBE!important;
+}
+.selectspace{
+    width:20px;
+}
+.dataTable .row_selected .icon{
+    background-position: -50px -125px!important;
+}
+
+.dataTable .row_error td{
+    background:#D5FEBE!important;
+}
+
+.dataTable .row_error .icon{
+    background-position: -50px -125px!important;
+}
+
+#debug_checks_list fieldset .data {
+    background: #fff;
+    color: #252525;
+    font-size: 16px !important;
+    line-height: 20px;
+    margin-bottom: 1px;
+    padding-left: 2px;
+}
+.selectspace .icon{
+    cursor:pointer;
+    width:25px;
+    height:25px;  
+    background:url(/assets/img/icons.png);
+    background-position: -25px -125px;
+}    
+
+#win_debuggin .selectspace .icon {
+    margin-left:30px;
+}
+
+.debug_graph_nav .left,.debug_graph_nav .right{
+    width:25px;
+    height:25px;
+    float:right;
+    background:url('../img/icons.png');
+    cursor:pointer;
+
+}
+.debug_graph_nav .left{
+    background-position: -25px 0px;
+
+}
+.debug_graph_nav .right{
+    background-position: -25px -25px;
+
+}
+
+.debug_graph_nav .left:hover{
+    background-position: -50px 0px;
+
+}
+.debug_graph_nav .right:hover{
+    background-position: -50px -25px;
+
+}
+
+.debug_graph_nav .ldis{
+    background-position: -75px 0px!important;
+
+}
+.debug_graph_nav .rdis{
+    background-position: -75px -25px!important;
+
+}
+.ipdisabled{
+    background:#ccc!important;
+}
+.debug_graph_nav .semafor{
+    font-family:monospace;
+    margin-left:10px;
+    margin-right:10px;
+    float:right;
+    line-height: 25px;
+    font-size:12px;
+    color:#888;
+
+}
+
+.debug_graph_nav .title{
+    margin-left:30px;
+    margin-right:10px;
+    float:left;
+    line-height: 25px;
+    font-size:12px;
+    color:#888;
+
+}
+
+.table_list{
+    font-size:12px;
+    color:#888;
+}
+
+.table_list select{
+    width:45px;
+}
+.table_list table{
+    border-bottom:2px solid #999;
+    border-top:1px solid #999;
+}
+
+
+.table_list td{
+    line-height: 25px;
+}
+.table_list .bar{
+    width:80%;
+    height:15px;
+    margin:5px;
+    border:1px solid #ccc;
+    position:relative;
+    font-size:10px;
+    line-height: 15px;
+    color:black;
+    background:white;
+}
+.table_list .bar div{
+    left:0px;
+    top:0px;
+    background:#4BB2C5;
+    text-align: center;
+    position:absolute;
+    width:20%;
+    height:100%;
+
+}
+
+.debug_edit_menu{
+    margin-top:-10px;
+    height:35px;
+    background:#fff;
+
+}
+.debug_edit_menu li{
+    margin:5px;
+    font-size: 12px;
+    color:#888;
+    float:left;
+    padding-left:30px; 
+    padding-right:5px; 
+    line-height:25px; 
+    position: relative;
+    cursor: pointer;
+    border-radius:5px;
+}
+.debug_edit_menu li:hover{
+    color:#1e90ff;
+    background:#f5f5f5;
+}
+
+.debug_edit_menu .icon,.tagadd .icon{
+    left:0px;
+    position: absolute;
+    width:25px;
+    height:25px;
+    background:url(../img/icons.png);
+}
+.debug_edit_menu .add .icon,.tagadd .icon{
+    background-position: -25px -50px;
+}
+.debug_edit_menu .edit .icon{
+    background-position: -25px -75px;
+}
+.debug_edit_menu .rem .icon{
+    background-position: -25px -100px;
+}
+.debug_edit_menu .nadd .icon{
+    background-position: -50px -50px;
+}
+.debug_edit_menu .nedit .icon{
+    background-position: -50px -75px;
+}
+.debug_edit_menu .nrem .icon{
+    background-position: -50px -100px;
+}
+
+.debug_edit_menu .ladd .icon{
+    background-position: -75px -50px;
+}
+.debug_edit_menu .lrem .icon{
+    background-position: -75px -75px;
+}
+
+.debug_edit_menu .rec .icon{
+    background:url(../img/rec.png) no-repeat 5px 3px;
+}
+
+.debug_edit_menu .stop .icon{
+    background:url(../img/rec.png) no-repeat -25px 3px;
+}
+
+#win_debug .win_layer{
+    padding:0px!important;
+}
+.win .orange{
+    background:#FFFBEB;
+    overflow: hidden!important;
+}
+
+.win .orange2{
+    background:#FFFBEB;
+
+}
+
+.win .datadiv{
+    float:left;
+    width:320px;
+}
+.win .datadiv input,.win .datadiv select{
+    font-size:14px;
+}
+.win .datadiv select{
+    padding:3px 0px 0px 0px;
+    line-height: 25px;
+    height:25px;
+}
+
+.win .orange .datadiv fieldset{
+    border-color:#FFFBEB;
+}
+
+.win_layer .tag{
+    float:left;
+    clear:both;
+    border:1px solid #ccc;
+    font-family: monospace;
+    font-size:12px;
+    line-height: 20px;
+    /*background:#d2e37d;*/
+    background:#FFF3CA;
+    color:#555;
+    margin:5px;
+
+}
+#debug_summary{
+
+    border:2px solid #999;padding:10px;background: #fffdf6;
+}
+.pop_win_data .summary2{
+
+    border:2px solid #999;padding:10px;background: #fff!important;
+}
+
+.win_layer .tagadd{
+    position: relative;
+    float:left;
+    clear:both;
+    border:1px solid #ccc;
+    font-family: monospace;
+    font-size:12px;
+    line-height: 20px;
+
+    color:#555;
+    margin:5px;
+    padding:0pc 5px 0px 30px; 
+}
+
+.win_layer .addr{
+
+    color:#333;
+
+
+}
+.win_layer .addr_ul div{
+    font-family: monospace;
+    font-size:12px;
+    line-height: 20px;
+
+}
+.win_layer .addr_ul li{
+    width:150px;
+    float:left;
+    clear:both;
+    border-bottom:1px dashed #ccc; 
+}
+
+.win_layer .addr_ul li div{
+    float:left;
+}
+
+.win_layer .tag span,.win_layer .addr span{
+    padding:0px 5px 0px 5px;
+}
+
+.ipm_device legend.name{
+    margin-top: 20px;
+    font-size:14px;
+    line-height: 25px;
+    color:#777;
+}
+
+.ipm_device fieldset{
+
+    border:1px solid #ccc;
+    padding: 10px;
+}
+
+.half_menu{    
+    background:#ededed;
+    width:100%;
+    height:25px;
+} 
+.ipm_graph_nav{
+    height:25px;    
+    margin-left:1px;
+    background:#ededed;
+} 
+.half_menu ul{    
+    color: #848484;
+    font-size: 12px;
+    line-height: 25px;
+    list-style-type: none;
+}
+.half_menu .active{
+    background:#fff;
+    color:#50849F;
+
+}
+.half_menu li{
+    cursor: pointer;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.mapip{
+    font-size:10px;
+    width:30px;
+    height:20px;
+    border:1px solid #ccc;
+    background:#f8f8f8;
+    line-height: 20px;
+    text-align: center;
+    float:left;
+    margin:3px;
+    color:#333;
+    -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
+    cursor:default;
+}
+
+.ipm_data_map_list .used{
+    background:#4BB2C5;
+    cursor: pointer;
+}
+.ipm_data_map_list .usedvps{
+    background:url(/assets/img/bg.png) #4BB2C5;
+    cursor: pointer;
+    border:1px dashed #333;
+}
+.ipm_data_map_list .used:hover,.ipm_data_map_list .usedvps:hover{
+ background: #FA9A21!important;
+}
+
+.ipm_data_map_list .free{
+    background:#C5B47F;
+}
+.ipm_data_map_list .reserved{
+    background:#EAA228;
+}
+
+
+
+.ipm_data_map_list{
+    font-family: monospace;
+    font-size:12px;
+    display:none;
+}
+
+.mapipname{
+    padding-right:5px; 
+    clear: left;
+    color:#888;
+    width:140px;
+    height:20px;
+    border:1px solid #ccc;
+    background:#FFFDF6;
+    line-height: 22px;
+    text-align: right;
+    float:left;
+    margin:3px;
+}
+
+.ipm_addr_selector{
+    margin:2px;
+    width:135px;
+    height:20px;
+    border:1px solid #ccc;
+    background:#fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ipm_addr_selector:hover{
+    background:#FFFBEB;
+}
+
+.ip_set:hover{
+    background-color:#1e90ff;
+    cursor:pointer;
+}  
+
+.ipm_addr_selector span{
+    margin-left:5px;
+    color:#1e90ff;
+    line-height: 20px;
+    float:left;
+}
+
+.ipm_addr_selector .icon{
+    background:url(/assets/img/icons.png);
+    float:left;
+    width:20px;
+    height:20px;
+    background-position: -350px -50px;
+}
+.ip_set{
+    top:16px;
+    position: absolute;
+    right:-10px;
+    margin-left:10px;
+    border:1px solid #ccc;
+    background:url(/assets/img/icons.png) #fff;
+    width:25px;
+    height:25px;
+    border-radius: 3px;
+    background-position: -375px -50px;
+}
+.orange fieldset{
+    border-color:#FFFBEB;
+}
+.iplarge{
+    width:300px;
+    position:relative;
+
+}
+
+.iplarge input{
+
+    height:25px;
+    font-size:16px;
+    width:60px!important;
+}
+
+.input_ip_ul{
+    width:62px;
+    float:left;   
+
+}
+#debug_drop{
+    z-index:10;
+    margin-top:25px;
+    position:absolute;
+    border:1px solid #888;
+    background: #fff;
+}
+
+.input_ip_ul .ac{
+    background:#f8f8f8;
+    color:#000;
+
+}
+/*
+.input_ip_ul li{
+    background:#f8f8f8;
+    color:#000;
+    
+  
+}
+*/
+
+
+#debug_dev_np{
+    height:25px;
+    padding-top:2px;
+    padding-left:2px;
+    font-size: 16px;
+}
+.input_ip_ul li{  
+
+    cursor: pointer;
+
+    line-height:25px;
+    padding-left: 3px;
+    background:#fff;
+    font-size: 14px;
+    color:#888;
+}
+
+.ip_inp_div{
+    width:70px;
+    float:left;
+}
+
+.orange2{
+    width:100%;
+    position:absolute;
+    top:25px;
+}
+
+.orange2 fieldset{
+    border-color:#FFFBEB;
+}
+
+.input_ip_ul .used{
+    text-decoration:line-through;
+    color:#9d261d;
+
+
+}
+
+.ipm_devices{
+    margin-top: 40px;
+    
+}
+
+.ipm_device{
+    margin-bottom:10px;
+    width:85%;
+    border:2px solid #999;
+    background:#fffdf6;
+    padding:10px;
+}
+
+.ipm_device_menu{
+    opacity: 0.85;
+    position: absolute;
+    right:20px;
+    width:100%;
+    background:url(/assets/img/bg.png) #fff;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height:25px;
+    z-index:20;
+    
+    
+}
+
+.ip_data_ipm{
+    color:#333;
+    border-bottom: 1px dashed #ccc!important;
+    width:220px!important;
+    float:left;
+}
+.ipm_device legend{
+   
+   background:#fff;
+   border:1px solid #ccc;
+   padding:0px 5px 0px 5px;
+}
+
+.ipm_device a{
+   font-size:12px;
+    color:#1e90ff;
+    
+    
+}
+
+.ipm_device a:hover{
+color:black;
+}
+
+.pick_server {
+    margin:5px 5px 5px 8px;
+    height:25px;
+    width:285px;
+}
+
+.pick_server option {
+    height:25px;
+}

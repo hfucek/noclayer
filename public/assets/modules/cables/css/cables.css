@@ -1,0 +1,509 @@
+@CHARSET "UTF-8";
+
+.cablemode{
+	/*background:#FAF5E8!important;*/
+	
+}
+
+.win_layer .rj45{
+	background-position:-50px -200px!important;
+	font: 9px/20px Coda!important;
+}
+
+.win_layer .rj45-mac{
+	background-position:-100px -200px!important;
+	font: 9px/20px Coda!important;
+}
+
+.win_layer .IEC_C13{
+	background-position:-175px -200px!important;
+	font: 9px/40px Coda!important;
+}
+
+.win_layer .IEC_C19{
+	background-position:-150px -200px!important;
+	font: 9px/40px Coda!important;
+}
+
+.win_layer .IEC_60309{
+	background-position:-200px -200px!important;
+	font: 8px/40px Coda!important;
+	text-align:right!important;
+	
+}
+
+.win_layer .fiberlc{
+	background-position:-75px -200px!important;
+	font: 9px/15px Coda!important;
+}	
+
+.win_layer .fiberlc-mac{
+	background-position:-125px -200px!important;
+	font: 9px/15px Coda!important;
+}	
+
+.win_layer .vga{
+	background-position:0px -250px!important;
+	font: 9px/40px Coda!important;
+	width:50px!important;
+}	
+
+.win_layer .dvi{
+	background-position:-50px -250px!important;
+	font: 9px/40px Coda!important;
+	width:50px!important;
+}	
+.win_layer .hdmi{
+	background-position:-100px -250px!important;
+	font: 9px/40px Coda!important;
+	width:50px!important;
+}
+
+
+.grid .ru{
+	height:14px;
+	background:red;
+	width:25px;
+	opacity:0;	
+}
+
+.win_iptable .size_medium2{
+	font-size:12px!important;
+	
+}
+
+.pduclone{
+	position:absoute;
+width:14px;
+left:50px;
+top:50px;
+z-index:23;
+}
+.power_mask{
+	display:none;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:21;
+	background:blue;
+	opacity:0;
+}
+.rack_power{
+	
+	z-index:22;
+	display:none;
+	position:absolute;
+	width:26px;
+	height:100%;
+	background:url(/assets/img/bg.png) #444;
+top:18px;
+}
+.pdu .pb{
+bottom:-10px;	
+}
+.pdu .pu{
+top:-10px;	
+}
+.rack .grid{
+top:18px;
+position:absolute;
+width:25px;
+z-index:25;
+
+}
+
+.pdu .p_handler{
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+}
+
+.pdu .screw{
+left:-1px;
+position:absolute;
+width:16px;
+height:10px;
+background:url(/assets/img/icons.png) no-repeat;
+background-position:-105px -150px;
+
+}
+
+.pdu .screw:hover{
+background-position:-105px -165px!important;	
+	
+}
+
+.power_right{
+
+	right:0px;
+		}
+	
+.power_left{
+
+}
+
+.rack .pdu{
+	cursor:pointer;
+	position:absolute;
+	width:14px;
+	border:1px solid #888;
+	height:160px;
+	margin:0px 5px 5px 5px;
+	background:url(/assets/img/pdu.png) #444;
+}
+.rack_power .add{
+	cursor:pointer;
+	background:url(/assets/img/icons.png);
+	margin:10px 5px 0px 5px;
+	width:15px;
+	height:15px;
+	background-position:-130px -154px;
+}
+.rack_power .add:hover{
+	background-position:-155px -154px!important;
+	
+}
+
+
+.cable_icon{
+	background-position:-75px -25px;
+	
+}
+.cable_icon2,.cable_icon:hover{
+	background-position:-75px -50px;
+	
+}
+
+
+#cable_head{
+    display: none;
+    background: #f8f8f8; 
+    right: 350px; 
+    position: absolute;
+}
+
+
+#cable_head .menu_a:hover .menu_name, .menu_active{
+	background:#E2E2E2;
+	color:#222;
+} 
+
+#cable_head .menu_name{
+	padding:0px 10px 0px 10px;
+	
+}
+
+.porttext{
+
+font-family: Coda;
+font-size: 9px;
+stroke: none;
+fill: #000;
+}
+
+
+.svgpin1{
+	fill: #fff;
+	stroke:#000;
+	fill-opacity:0.1;
+	cursor:pointer;
+}
+
+.svgpin1{
+	fill: #fff;
+	stroke:#000;
+	fill-opacity:0.1;
+	cursor:pointer;
+}
+
+.svgpin2{
+	fill: #fff;
+	stroke:#000;
+	fill-opacity:0.1;
+	cursor:pointer;
+}
+
+.svgpin3{
+	fill: #fff;
+	stroke:#1E90FF;cursor:pointer;
+	fill-opacity:0.2;
+}
+
+.svgpin0{
+	fill: #fff;
+	stroke:#000;
+	fill-opacity:0.1;
+	
+}
+
+
+.svgpin{
+	fill: #fff;
+	stroke:#000;
+	fill-opacity:0.1;
+	cursor:pointer;
+}
+
+#cable_navig{
+	top:0px;
+	z-index:200!important;
+	position:absolute;
+}
+#cable_navig .panel{
+	height:8780px!important;
+	
+}
+
+#cableview{
+	
+	position:relative;
+}
+
+#cableview svg{
+	
+	position:relative;
+}
+
+
+#cableview .box{
+border:1px solid #ccc;
+background:white;
+
+width:135px;
+position:absolute;
+}
+#cableview .box div{
+cursor:pointer;
+	height:25px;
+line-height:25px;
+font-size:14px;
+color:#888;
+}
+#cableview .box span{
+margin-left:10px;
+
+}
+
+#cableview .box div:hover{
+background:#f8f8f8;
+color:#1e90ff;
+}
+
+	
+	
+
+#cables{
+	display:none;
+	
+	position:relative;
+	width:100%;
+		height:8780px;
+}
+
+.cableload .data{
+	margin-left:10px;
+	font:14px monospace;
+	line-height:58px;
+	float:left;
+	color:white;
+	
+}
+.cableload{
+	
+	display:none;
+	z-index:30;
+	height:58px;
+	width:250px;
+	background:#888;
+	position:absolute;
+	left:50%;
+	margin-left:-100px;
+	top:30%;
+	border:1px solid #ccc;
+	
+}
+
+.cableload .ico{
+	margin:5px;
+	float:left;
+	width:48px;
+	height:48px;
+	background:url(../img/cableLoader.png) no-repeat;
+}
+
+
+#debuger{
+z-index:100;
+position:absolute;
+width:400px;
+height:100px;
+background:#5563BB;
+opacity:0.7;
+color:white;
+right:100px;
+bottom:200px;
+border:1px solid black;
+}
+#debuger .head{
+height:25px;
+font-size:12px;
+line-height:25px;
+color:white;
+background:#222;
+}
+
+#debuger .head span{
+padding-left:10px;
+}
+
+#debugdata{
+font-size:12px;
+height:75px;
+width:400px;
+overflow-y:scroll;
+}
+.overflowmode{
+overflow:hidden!important;
+}
+
+#cableback{
+cursor:move;
+cursor: -webkit-grab; cursor: -moz-grab;
+}
+#dragmask{
+	z-index:1000;
+position:absolute;
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+background:black;
+opacity:0.0;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-moz-user-select: none;
+ -webkit-user-select: none;
+ /* this will work for QtWebKit in future */
+ -webkit-user-drag: none;
+cursor:move;
+cursor: -webkit-grabbing; cursor: -moz-grabbing;
+}
+
+.miniracks{
+position:absolute;
+width:100%;
+height:100%;
+border-top:1px dashed #ccc;
+border-bottom:1px dashed #ccc;
+}
+
+.miniracks .window{
+position:absolute;
+border:1px solid #1e90ff; 
+z-index:200;
+box-shadow: 0 0 2px 1px #1E90FF;
+cursor:move;
+}
+.miniracks .window .wrap{
+background:blue;
+opacity:0.1;
+}
+
+.miniracks .wcont{
+top:0px;
+left:0px;
+z-index:20;
+position:absolute;
+}	
+	
+.miniracks .mrack{
+position:absolute;
+background:#888;
+padding:3px;
+}
+.miniracks .wrap{
+
+background:white;
+height:100%;
+}
+
+.tool{
+margin:10px;
+position:relative;
+}
+
+.tool .ico{
+width:25px;
+height:25px;
+border:1px solid #ccc;
+background:url(/assets/img/icons.png);
+cursor:pointer;
+}
+
+.tool_act .tool_add{
+background-color:#C3FFB8;
+}
+
+.tool_act .tool_rem{
+background-color:#EDB2B2;
+}
+
+.tool_act .tool_move{
+background-color:#E18F3C;
+}
+
+.tool_act span{
+color:black!important;
+font-weight:bold;
+}
+
+.tool span{
+top:0px;	
+position:absolute;
+left:35px;
+line-height:25px;
+color:#888;
+font-size:12px;
+
+}
+
+.cable_add{
+cursor:url(../img/cursor/add.png) 6 27,auto!important;
+fill:#C3FFB8!important;
+fill-opacity:0.5;
+stroke:#000;
+}
+
+.cable_rem{
+cursor:url(../img/cursor/del.png) 18 14,auto!important;
+fill:#EDB2B2!important;
+fill-opacity:0.5;
+stroke:#000;
+}
+
+.cable_move{
+cursor:url(../img/cursor/mov.png) 17 18,auto!important;
+fill:#E18F3C!important;
+fill-opacity:0.5;
+stroke:#000;
+}
+
+
+
+.tool_add{
+background-position:-175px -250px!important;
+}
+
+.tool_rem{
+background-position:-200px -250px!important;
+}
+
+.tool_move{
+background-position:-225px -250px!important;
+}
+
