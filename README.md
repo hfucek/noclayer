@@ -1,5 +1,5 @@
-#Noclayer
-!(public/logo.png)  
+
+![noclayer](public/logo-large.png)  
 Data center rack management 
 
 [<img src="https://s-a.github.io/license/img/mit.svg" />](/LICENSE.md#mit "Massachusetts Institute of Technology (MIT)")
